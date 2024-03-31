@@ -5,8 +5,11 @@ A dynamic website designed to showcase my professional expertise, skills, and no
 #Technology Stack
 
 Programming Languages: HTML, CSS, JavaScript
+
 Code Editor: Visual Studio Code
+
 Version Control System: Git (GitHub)
+
 Hosting Platform: GitHub Pages
 
 #Key Features
