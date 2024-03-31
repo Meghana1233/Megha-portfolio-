@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Suhas" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is my portfolio website" />
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="img/logo_1000x1000.jpg" type="image/x-icon" />
+
+    <script defer src="js/main.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__nav--container">
+            <div class="header__title">
+                <figure class="header__logo">
+                    <img class="header__logo--img" src="img/logo_1000x1000.jpg" alt="Logo" width="1000" height="1000"
+                        title="Logo" />
+                    <figcaption class="offscreen">Logo for my name</figcaption>
+                </figure>
+                <h1 class="header__title--line">Meghana</h1>
+            </div>
+
+            <a class="header__nav--toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            
+            <nav class="header__nav" aria-label="primary-navigation">
+                <ul class="header__nav--list">
+                    <li class="header__nav--items"><a href="#">HOME</a></li>
+                    <li id="about" class="header__nav--items">
+                        <a href="#aboutMe"><span class="nowrap">ABOUT ME</span></a>
+                    </li>
+                    <li id="projects" class="header__nav--items">
+                        <a href="#project">PROJECTS</a>
+                    </li>
+                    <li class="header__nav--items">
+                        <a href="#contact"><span class="nowrap">CONTACT ME</span></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header__project--extender">
+            <ul class="header__animate--container">
+                <div class="header__animate">
+                    <li class="header__animate--head">Malware Detection using machine learning</li>
+                    <li class="header__animate--desc">Machine learning based application</li>
+                    <li class="header__animate--desc">
+                        Machine learning for malware detection leverages diverse datasets to train algorithms, enabling automated identification of malicious software patterns in real-time, enhancing cybersecurity.
+                    </li>
+                   
+                    <a href="#project">Know more ></a>
+                </div>
+                <div class="header__animate">
+                    <li class="header__animate--head">Mobile  </li>
+                    <li class="header__animate--desc">A Full Stack Application</li>
+                    <li class="header__animate--desc">
+                        Allows Users To Signup and Login
+                    </li>
+                    <li class="header__animate--desc">
+                        Allows Users To Book A Pet Service
+                    </li>
+                    <a href="#project">know more ></a>
+                </div>
+                <div class="header__animate">
+                    <li class="header__animate--head">Portfolio website</li>
+                    <li class="header__animate--desc">A front end application</li>
+                    <li class="header__animate--desc">Briefly describes about myself, my projects and my achievements
+                    </li>
+                    <li class="header__animate--desc">
+                        built using html css and javascript
+                    </li>
+                    <a href="#project">know more ></a>
+                </div>
+            </ul>
+        </div>
+
+        <div class="header__bg--container">
+            <div class="header__text">
+                <p>An enthusiatic programmer and developer</p>
+                <p>Intrested to learn and explore multiple domains.</p>
+                <span id="element"></span><span class="text__cursor">|</span>
+            </div>
+            <figure class="header__bg">
+                <img class="header__bg--img" src="img/bg.jpg" width="910" height="644" />
+                <figcaption class="offscreen">background-image for header</figcaption>
+            </figure>
+        </div>
+    </header>
+
+    <main class="main">
+        <article id="aboutMe" class="about">
+            <div class="about__photo--container">
+                <section class="about__photo--section">
+                    <h2>ABOUT ME</h2>
+                    <figure class="about__photo">
+                        <img src="img/Megha.jpg" alt="my photo" width="1477" height="1600" />
+                        <figcaption class="offscreen">Im Meghana</figcaption>
+                    </figure>
+                    <p>
+                        I am an enthusiastic developer with a strong drive for innovation and creativity. Backed by solid academic credentials and practical experience, I excel in bringing imaginative concepts to fruition through my work. 
+                        My goal is to narrow the divide between imagination and practicality by crafting meaningful and effective solutions.
+                    </p>
+                    <p>
+                        <a class="about__resume" href="https://drive.google.com/file/d/1Ke-zcGQoOsUhYld0AAaHK7pEMMa8vCXI/view?usp=sharing" target="_blank">MY RESUME</a>
+                    </p>
+                </section>
+            </div>
+            <div class="about__info--container">
+                <section>
+                    <h3 class="large">EDUCATION</h3>
+                    <p>
+                    <h4 class="inline">SSLC - </h4>
+                    <span>Sri chithrapinakini High School</span>
+                    <p> Percentage: 87%</p>
+                    <h4 class="inline">12th - </h4>
+                    <span>St joseph's convent PU college</span>
+                    <p> Percentage: 86%</p>
+                    <h4 class="inline">B.E - </h4>
+                    <span>Nagarjuna college of Engineering and Technology</span>
+                    <p>CGPA: 9.16</p>
+
+                    </p>
+                    <h3 class="large">SKILL SETS</h3>
+                    <p>
+                    <h4 class="inline">Programming Languages - </h4>
+                    <span>Java, C, Python</span>
+                    <p>Good Understanding Of Object Oriented Programming.</p>
+                    <h4 class="inline">Front End Development - </h4>
+                    <span>HTML, CSS, javascript, React</span>
+                    <p></p>
+                    <h4 class="inline">Back End Development - </h4>
+                    <span> MySQL</span>
+                    <p></p>
+                    <h4 class="inline">Other Technologies - </h4>
+                    <span>Machine Learning,cloud computiong,cybersecurity</span>
+                    </p>
+                </section>
+            </div>
+        </article>
+        <article id="project" class="project__container">
+            <section class="project">
+                <h2>PROJECTS</h2>
+                <div class="flash__cards">
+                    <div id="smartHome" class="project__item">
+                        <h2>Malware Detection Using Machine Learning</h2>
+                        <div class="project__item--inner">
+                            <div class="project__flip--front">
+                                <p>Machine learning based Application</p>
+                                <p>Utilizing ML algorithms for precise detection</p>
+                                <p>Empowering cybersecurity with machine learning, detecting all malware types.</p>
+                            </div>
+                            <div class="project__flip--back">
+                                <h3>Tools and Technologies used</h3>
+                                <ul>
+                                    <li>Jupyter Notebook</li>
+                                    <li>Programming Language : Python</li>
+                                    <li>Libraries : OS,pandas,numpy,pickle,pefile,Scikit-learn</li>
+                                    <li>Algorithms : Random Forest, Gradient Boosting, AdaBoost, GNB, Decision Tree</li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <div id="petBoarding" class="project__item">
+                        <h2>Mobhub</h2>
+                        <div class="project__item--inner">
+                            <div class="project__flip--front">
+                                <p>A full stack application</p>
+                                <p>The frontend of the application is built using HTML and CSS to provide GUI for the
+                                    user.</p>
+                                <p>The backend utilizes MySQL and Python to manage user authentication and booking data storage.</p>
+                            </div>
+                            <div class="project__flip--back">
+                                <h3>Tech Stack Used</h3>
+                                <ul>
+                                    <li>Visual Studio Code</li>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>javascript</li>
+                                    <li>React js</li>
+                                    <li>Mysql</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div id="portfolio" class="project__item">
+                        <h2>Portfolio Website</h2>
+                        <div class="project__item--inner">
+                            <div class="project__flip--front">
+                                <p>A front end application</p>
+                                <p>A portfolio website designed to exhibit my skills, achievements, and expertise to a wider audience.</p>
+                                <p> My portfolio website is like a stage where I can show off my projects and skills.
+                                     It's a way for me to prove what I can do and stand out from others in my field.</p>
+                            </div>
+                            <div class="project__flip--back">
+                                <h3>Tech Stack Used</h3>
+                                <ul>
+                                    <li>Visual Studio Code</li>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JAVASCRIPT</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="project__footer">
+                            <a href="#">Link | </a>
+                            <a href="#" target="_blank"><span class="fa fa-github"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+
+        <article id="contact" class="contact__container">
+            <section class="contact">
+                <h2 class="contact__heading">Contact me</h2>
+                <p class="contact__info">I'd really like to hear from you!</p>
+
+                <form action="https://formsubmit.co/3a792c1a2c4edb3f889bb84b713f68f1" method="POST"
+                    class="contact__form">
+                    <p class="contact__tiles">
+                        <label class="contact__tiles--desc" for="Name">Name:</label>
+                        <input class="contact__tiles--input" type="text" name="Name" id="Name"
+                            placeholder="Your Name..." autocomplete="on" required>
+                    </p>
+                    <p class="contact__tiles">
+                        <label class="contact__tiles--desc" for="Email">Email:</label>
+                        <input class="contact__tiles--input" type="email" name="Email" id="Email"
+                            placeholder="Your Email..." autocomplete="on" required>
+                    </p>
+                    <p class="contact__tiles">
+                        <label class="contact__tiles--desc" for="message">Your Message:</label>
+                        <textarea class="contact__tiles--input" name="message" id="message" cols="30" rows="5"
+                            placeholder="Type your message here"></textarea>
+                    </p>
+                    <p class="contact__btn--container">
+                        <button id="sendMail" class="contact__btn" type="submit">Submit</button>
+                        <button class="contact__btn" type="reset">Reset</button>
+                    </p>
+                </form>
+            </section>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <h2 class="footer__heading">Connect with me</h2>
+        <nav aria-label="secondary-navigation" class="footer__socials">
+            <a target="_blank" class="footer__icons" href="#"><span class="fa fa-github">
+                    |</span></a>
+            <a target="_blank" class="footer__icons" href="https://www.linkedin.com/in/meghana-b-m-614291230/"><span
+                    class="fa fa-linkedin"> |</span></a>
+            <a target="_blank" class="footer__icons" href="meghanabm242@gmail.com"><span class="fa fa-google">
+                    |</span></a>
+            <a href="#" class="footer__icons totop">^</a>
+        </nav>
+    </footer>
+</body>
+
+</html>
